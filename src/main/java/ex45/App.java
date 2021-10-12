@@ -51,7 +51,10 @@ public class App {
         };
 
         try {
-            PrintWriter writer = new PrintWriter("src/main/java/ex45/exercise45_output.txt", "UTF-8");
+            Scanner s2 = new Scanner(System.in);
+            System.out.print("Enter the output name you want: ");
+            String opfilename = s2.nextLine();
+            PrintWriter writer = new PrintWriter("src/main/java/ex45/" + opfilename, "UTF-8");
             writer.print(replacer.getNewOutput());
             writer.close();
         } catch (Exception ex) {
