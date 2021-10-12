@@ -1,0 +1,15 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class dataSorter {
+private Scanner s;
+private ArrayList<String> names;
+
+dataSorter(File file)
+private void initScanner(File file)void startUp()
+public void collectAndSortNames()
+private void sortNames()
+public void printNamesToFile()
+}
+
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+
+class StringReplacer {
+
+private static String stringToFind;
+private static replaceString;
+private static baseString;
+
+StringReplacer(String find, String replaceWith)
+public static void replaceTermInLine(String line)
+public String getNewOutput()
+
+}
+
+
+
+@enduml

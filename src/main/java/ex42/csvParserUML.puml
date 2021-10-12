@@ -1,0 +1,17 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+
+class csvParser {
+private Scanner s;
+private File file;
+
+csvParser(String fileName)
+private void initScanner(String fileName)
+private void printRow(String[] splitLine)
+public void processCSV()
+private void printTableHead()
+}
+
+
+@enduml

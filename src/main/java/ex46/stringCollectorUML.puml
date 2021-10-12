@@ -1,0 +1,24 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+
+class StringCollector {
+
+private static ArrayList<String> foundStrings;
+    private static ArrayList<Integer> foundStringsFrequency;
+    private static boolean stringsCollectedCompletionStatus;
+
+
+public static void addNewString(String newString)
+public static boolean linearSearchForString(String str)
+public String buildCollectionResults()
+public void setStringsCollectedCompletionStatus(boolean newStatus)
+public boolean getStringsCollectedCompletionStatus()
+public ArrayList<String> getStringList()
+public ArrayList<Integer> getStringFrequencyList()
+
+}
+
+
+
+@enduml
